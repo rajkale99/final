@@ -46,8 +46,8 @@ DEVICE_PACKAGE_OVERLAYS += \
 $(call inherit-product, vendor/legion/config/bootanimation.mk)
 
 # Substratum Key
-PRODUCT_COPY_FILES += \
-    vendor/legion/prebuilt/common/priv-app/SubstratumKey.apk:system/priv-app/SubstratumKey/SubstratumKey.apk
+#PRODUCT_COPY_FILES += \
+#    vendor/legion/prebuilt/common/priv-app/SubstratumKey.apk:system/priv-app/SubstratumKey/SubstratumKey.apk
 
 # Sensitive Phone Numbers list
 PRODUCT_COPY_FILES += \

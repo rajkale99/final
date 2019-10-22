@@ -25,6 +25,6 @@ TARGET_PRODUCT_SHORT := $(subst legion_,,$(LEGION_BUILD_TYPE))
 
 LEGION_DATE := $(shell date -u +%d-%m-%Y)
 
-LEGION_FINGERPRINT := LegionOS-Android10-$(LEGION_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%Y%m%d)/$(shell date -u +%H%M)
+LEGION_FINGERPRINT := LegionOS-Android-$(LEGION_VERSION)/$(PLATFORM_VERSION)/$(TARGET_PRODUCT_SHORT)/$(shell date -u +%Y%m%d)/$(shell date -u +%H%M)
 
 LEGION_BUILD_VERSION := LegionOS-$(LEGION_TAG)-$(LEGION_VERSION)-$(LEGION_BUILD_TYPE)-$(shell date -u +%Y%m%d)

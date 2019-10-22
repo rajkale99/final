@@ -100,7 +100,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/legion/prebuilt/common/bin/sysinit:system/bin/sysinit \
     vendor/legion/prebuilt/common/etc/init/legion-system.rc:system/etc/init/legion-system.rc \
-    vendor/legion/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner
 
 # Markup libs
 PRODUCT_COPY_FILES += \
@@ -143,11 +142,6 @@ PRODUCT_PACKAGES += \
     AccentColorFlatPinkOverlay \
     AccentColorCyanOverlay \
     AccentColorBlueGrayOverlay
-
-#OmniJaws
-PRODUCT_PACKAGES += \
-    OmniJaws \
-    WeatherIcons
 
 # Legion Stuff - Copy to System fonts
 PRODUCT_COPY_FILES += \

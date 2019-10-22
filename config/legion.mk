@@ -48,17 +48,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.device.cache_dir=/cache
 endif
 
-#Legion Wallpapers
-#  PRODUCT_PACKAGES += \
-     LegionPapers
-
-# Cutout control overlays
-#PRODUCT_PACKAGES += \
-    HideCutout \
-    StatusBarStock
-
 #Build Simple Gallery
- # PRODUCT_PACKAGES += \
+  PRODUCT_PACKAGES += \
      Recorder \
 
 # Some more permissions
@@ -69,7 +60,3 @@ PRODUCT_COPY_FILES += \
 
 # LegionOS OTA
 $(call inherit-product-if-exists, vendor/legion/config/ota.mk)
-
-# Long screenshot
-#PRODUCT_PACKAGES += \
-    Longshot
